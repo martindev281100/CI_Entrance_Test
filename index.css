@@ -72,6 +72,13 @@ a {
     margin-top: 200px;
     margin-bottom: 400px;
 }
+footer{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 20px 0 20px;
+}
 @media screen and (max-width:800px) {
     .flex-container>div {
         margin-right: 0px;
