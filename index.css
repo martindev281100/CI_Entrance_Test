@@ -68,6 +68,9 @@ a {
 .contact>div>span>img{
     width: 40px;
 }
+.contact>div>span{
+    font-size: 30px;
+}
 #contact{
     margin-top: 200px;
     margin-bottom: 400px;
