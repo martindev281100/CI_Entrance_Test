@@ -2,48 +2,64 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
     <div class="nav_content">
-        <a href="#about" style="text-align: right; padding-left: 20px;">About</a>
-        <a href="#project" style="text-align: right; padding-left: 20px;">Work</a>
-        <a href="#contact" style="text-align: right; padding-left: 20px;">Contact</a>
+        <ul>
+            <li><a href="#about" style="text-align: right; padding-left: 20px;">About</a></li>
+            <li><a href="#project" style="text-align: right; padding-left: 20px;">Work</a></li>
+            <li><a href="#contact" style="text-align: right; padding-left: 20px;">Contact</a></li>
+        </ul>
     </div>
     <div class="container">
-        <div class="header" id="about">
+        <div class="header" id="about" style="padding-top: 400px;">
             Hey I'm from Mindx!
         </div>
-        <div class="header">
-            <div style="margin-bottom: 80px;" id="project">These are some of my projects</div>
-            <div>
-                <table border="1" align="center">
-                    <tr>
-                        <td><img src="/images/GNOME_Calculator_3.32_screenshot.png" alt="" class="img"> <br>
-                            <label for="">Project 1</label>
-                        </td>
-                        <td><img src="/images/Website-Design-new.jpg" alt="" class="img"> <br>
-                            <label for="">Project2</label>
-                        </td>
-                        <td><img src="/images/Unknown.jpg" alt="" class="img"> <br>
-                            <label for="">Project 3</label>
-                        </td>
-                    </tr>
-                </table>
+        <div class="header" id="project" style="padding-top: 100px;">
+            <div style="margin-bottom: 80px;">These are some of my projects</div>
+            <div class="flex-container">
+                <div><img src="/images/GNOME_Calculator_3.32_screenshot.png" alt="" class="img"> <br>
+                    <label for="">Project 1</label></div>
+
+                <div><img src="/images/Website-Design-new.jpg" alt="" class="img"> <br>
+                    <label for="">Project2</label>
+                </div>
+                <div><img src="/images/Unknown.jpg" alt="" class="img"> <br>
+                    <label for="">Project 3</label></div>
+                <div><img src="/images/Unknown.jpg" alt="" class="img"> <br>
+                    <label for="">Project 4</label></div>
+                <div><img src="/images/Unknown.jpg" alt="" class="img"> <br>
+                    <label for="">Project 5</label></div>
+                <div><img src="/images/Unknown.jpg" alt="" class="img"> <br>
+                    <label for="">Project 6</label></div>
             </div>
         </div>
-        <div class="header" id="contact">
-            <div>Let's work together...</div>
-
+        <div class="header" id="contact" style="padding-top: 100px;">
+            <div style="margin-bottom: 100px;">
+                <div>Let's work together...</div>
+                <div style="font-size: 16px; font-style: italic;">How do you take your coffee</div>
+            </div>
+            <div class="contact flex-container">
+                <div>
+                    <span style="margin-right: 50px;"><img src="/images/facebook-logo.png" alt=""> Facebook</span>
+                    <span><img src="/images/github-logo.png" alt=""> Github</span>
+                </div>
+                <div>
+                    <span style="margin-right: 50px;"><img src="/images/1200px-Twitter_bird_logo_2012.png" alt=""> Twitter</span>
+                    <span><img src="/images/phone-icon.png" alt=""> Call me</span>
+                </div>
+            </div>
         </div>
-        <div>
-
-        </div>
+       
     </div>
-
+    <footer>
+        Created for Mindx
+    </footer>
     <script src="index.js"></script>
 </body>
 

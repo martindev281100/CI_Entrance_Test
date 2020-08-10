@@ -1,22 +1,17 @@
 // // Exercise 1
 // let n = Number(prompt('Enter n: '));
 // let first_num = Number(prompt('Enter first num: '));
-// let step = first_num
-// let arr_n = [];
-// for (let i = 0; i< n; i = i + step)
-// {
-//     arr_n.push(i);
+
+// let opposite_num
+
+// if (n % 2 == 0) {
+//     let opposite_i = n / 2;
+//     opposite_num = first_num + opposite_i
+//     alert('Opposite number: ' + opposite_num)
+// } else {
+//     alert('Dont have opposite number')
 // }
 
-// let opposite_num = 0;
-// if(arr_n.length % 2 == 0)
-// {
-//     opposite_num = arr_n[(arr_n.length)/2]
-// }
-// else{
-//     console.log('Dont have opposite number')
-// }
-// console.log('Opposite number: '+ opposite_num)
 
 // //Exercise 2
 // let s1 = 'supermanbatmanspiderman'
@@ -40,6 +35,5 @@
 //         new_arr.push(split2[i]);
 //     }
 // }
-// let new_str = new_arr.split(',')
+// let new_str = new_arr.join("")
 // console.log(new_str)
-
